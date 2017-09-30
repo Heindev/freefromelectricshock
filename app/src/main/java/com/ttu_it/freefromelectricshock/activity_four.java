@@ -6,6 +6,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.widget.TextView;
 
 //Implementing the interface OnTabSelectedListener to our MainActivity
@@ -60,6 +61,7 @@ public class activity_four extends AppCompatActivity implements TabLayout.OnTabS
         int tabIndex=0;
         tabIndex=getIntent().getIntExtra("index",0);
         viewPager.setCurrentItem(tabIndex);
+        Log.d("TEST",tabIndex+"");
     }
 
     @Override
