@@ -62,6 +62,7 @@ public class activity_four extends AppCompatActivity implements TabLayout.OnTabS
         tabIndex=getIntent().getIntExtra("index",0);
         viewPager.setCurrentItem(tabIndex);
         Log.d("TEST",tabIndex+"");
+        Log.d("TEST","code changed");
     }
 
     @Override
