@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ee9c">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:text="အမ်ားျပည္သူ လွ်ပ္စစ္အႏၲရာယ္ကင္းရွင္းေရးအတြက္ ေအာက္ပါ အခ်က္မ်ား ေတြ႕ရွိပါက နီးစပ္ရာ	လွ်ပ္စစ္ဌာနသို႔  ဆက္သြယ္အေၾကာင္းၾကားပါ။"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="(၁) ဓာတ္တိုင္မ်ားယိုင္ေနျခင္း၊ လဲေနျခင္း၊ ဓာတ္ႀကိဳးမ်ားျပဳတ္က်ေနျခင္း၊ ျပတ္က်ေနျခင္း၊ေႂကြသီးမ်ားကြဲေနျခင္းႏွင့္ဓာတ္အားလိုင္းမ်ားေပၚတြင္ သစ္ကိုင္းမ်ားတင္ေနျခင္း \n\n
+(၂)	ထရန္စေဖာ္မာ မ်ားတြင္ ပုံမွန္အေျခအေနမဟုတ္ေသာ ထူးျခားမႈ တစုံတရာေတြ႕ရွိျခင္း \n\n
+(၃)	ဆားဗစ္ဝါယာႀကိဳးမ်ား ေလ်ာ့က်ျခင္း၊ ျပဳတ္က်ျခင္း၊ ျပတ္က်ျခင္း ႏွင့္ ေဆြးေျမ့ေပါက္ၿပဲျခင္း \n\n
+(၄)	လွ်ပ္စစ္ဌာနမွတာဝန္ရွိသူမဟုတ္ဘဲ ဓာတ္တိုင္ေပၚ တက္ေနျခင္း၊ ထရန္စေဖာ္မာၿခံဝန္းတြင္းဝင္ေနျခင္း\n\n
+(၅)	ဓာတ္အားလိုင္းအနီး အေဆာက္အဦးေဆာက္လုပ္ျခင္း၊ သစ္ပင္ႀကီးမ်ားစိုက္ပ်ိဳးျခင္း\n\n
+(၆)	ဓာတ္အားလိုင္းႏွင့္ သစ္ပင္သစ္ကိုင္းမ်ား  နီးကပ္ေနျခင္း  ၊ထိေနျခင္း\n\n
+(၇)	မိမိေနအိမ္ ၊အေဆာက္အဦး ႏွင့္ အလုပ္႐ုံမ်ားသို႔ သြယ္တန္းထားေသာ ဆားဗစ္ဝါယာႀကိဳးမ်ား ေဟာင္းႏြမ္းေဆြးေျမ့ေနျခင္း \n\n
+(၈)	ေနအိမ္ ၊အေဆာက္အဦးႏွင့္ အလုပ္႐ုံမ်ား အတြင္း သြယ္တန္းထားေသာ 	ဝါယာႀကိဳး 	မ်ားႏွင့္ လွ်ပ္စစ္ပစၥည္းမ်ား  ေဟာင္းႏြမ္းပ်က္စီးေနျခင္း\n\n
+(၉) ေျမစိုက္ႀကိဳးတပ္ဆင္သင့္သည့္ပစၥည္းမ်ားတြင္  ေျမစိုက္ႀကိဳးမတပ္ဆင္ရေသးျခင္း"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

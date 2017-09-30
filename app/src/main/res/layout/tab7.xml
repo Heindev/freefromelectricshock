@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ee9c">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:text="အမ်ားျပည္သူ လွ်ပ္စစ္အႏၲရာယ္ကင္းရွင္းေရးအတြက္ အႀကံျပဳခ်က္မ်ား"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="(၁)႐ုံးဆင္း/ေက်ာင္းဆင္း/ ေဈးသိမ္း/ေဈးပိတ္ အိမ္ျပန္လွ်င္ မီးခလုပ္မ်ား ပိတ္၍ 	မီးပလပ္မ်ားျဖဳတ္ခဲ့ပါ ၊ေသခ်ာ ေအာင္ထပ္မံစစ္ေဆးပါ။\n\n
+(၂)	ေလ/မိုးက်ၿပီးေနာက္ ဓာတ္တိုင္မ်ား၊ ဓာတ္ႀကိဳးမ်ား ပ်က္စီးခ်ိဳ႕ယြင္းမႈရွိနိုင္ပါသျဖင့္ 	အျပင္ထြက္လွ်င္ လွ်ပ္စစ္အႏၲရာယ္ သတိထားပါ။\n\n
+(၃)	လွ်ပ္စစ္ပစၥည္းတိုင္းတြင္ ဓာတ္အားရွိနိုင္ေၾကာင္းသတိျပဳပါ။\n\n
+(၄)	ဓာတ္လိုက္မႈျဖစ္ပြားပါက မိန္းခလုပ္ကို အျမန္ပိတ္ပါ။\n\n
+(၅)	လွ်ပ္စစ္ေၾကာင့္ျဖစ္ေသာ မီးေလာင္မႈတြင္ ပက္ဖ်န္းနိုင္သည့္ အမ်ိဳးအစား 	မီးသတ္ေဆးဘူးမ်ား  ေဆာင္ထားပါ။"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

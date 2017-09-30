@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ee9c">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:text="အမ်ားျပည္သူလွ်ပ္စစ္အႏၲရာယ္ကင္းရွင္းေရးအတြက္ တားျမစ္ခ်က္မ်ား"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="(၁)ေရစိုေသာခႏၶာကိုယ္ / အဝတ္အစားျဖင့္ လွ်ပ္စစ္ပစၥည္းမ်ားကို ကိုင္တြယ္အသုံးမျပဳရ။\n\n
+(၂)	ေျမျပင္ / သမံတလင္းေပၚတြင္ ေျခာက္ေသြ႕ေသာဖိနပ္  မစီးဘဲ 	လွ်ပ္စစ္ ပစၥည္းမ်ားကို 	ကိုင္တြယ္ အသုံးမျပဳရ။\n\n
+(၃)	ခ်ိဳ႕ယြင္းပ်က္စီးေန‌ေသာ လွ်ပ္စစ္ဝါယာ ႀကိဳးမ်ားႏွင့္ လွ်ပ္စစ္ပစၥည္း မ်ားကို 	အသုံးမျပဳရ။\n\n
+(၄)	ေနအိမ္၊ ၿခံစည္းရိုး၊ သံပန္းႏွင့္ သံဇကာမ်ားတြင္ လွ်ပ္စစ္ဝါယာႀကိဳးမ်ားသြယ္တန္း 	ခ်ည္ေႏွာင္ျခင္းမျပဳရ။\n\n
+(၅)	လွ်ပ္စစ္ပစၥည္းမ်ားကို တၿပိဳင္နက္ အသုံးမျပဳရ။\n\n
+(၆)	လွ်ပ္စစ္ပစၥည္းမ်ားကို ကေလးသူငယ္မ်ား လက္လွမ္းမွီေသာ ေနရာမ်ားတြင္ မထားရ။\n\n
+(၇)	ဓာတ္အားလိုင္းအနီး အေဆာက္အဦးေဆာက္လုပ္ျခင္း ၊ သစ္ပင္ႀကီးမ်ားစိုက္ပ်ိဳး 	ျခင္းမျပဳရ။\n\n
+(၈)	ဓာတ္အားလိုင္းမ်ားအနီး သစ္ပင္ ၊  သစ္ကိုင္းမ်ားမခုတ္ရ။\n\n
+(၉)	လွ်ပ္စစ္ကြၽမ္းက်င္မႈမရွိဘဲ လွ်ပ္စစ္ဆိုင္ရာ ျပဳျပင္ေဆာင္႐ြက္ျခင္းမျပဳရ။\n\n
+(၁၀) တာဝန္မရွိဘဲ ဓာတ္တိုင္ေပၚ မတက္ရ၊ ထရန္စေဖာ္မာ ၿခံဝန္းတြင္းမဝင္ရ။\n\n
+(၁၁) လွ်ပ္စစ္ဝါယာႀကိဳးမ်ားေပၚတြင္  အဝတ္မလွန္းရ။\n\n
+(၁၂)	ဓာတ္တိုင္ေပၚသို႔ တက္ေရာက္ ေဆာ့ကစားျခင္း မျပဳရ။\n\n
+(၁၃) ဆားဗစ္ဝါယာႀကိဳးကို  ေပ(၃၀၀)ထက္ပို၍ တပ္ဆင္အသုံးမျပဳရ။\n\n
+(၁၄) ဓာတ္လိုက္ေနသူအား လက္ျဖင့္မဆြဲရ။\n\n
+(၁၅) ဓာတ္အားလိုင္း ေအာက္တြင္ မလြတ္ကင္းသည့္ကုန္တင္ယဥ္မ်ား ျဖတ္သန္းျခင္း၊ ရပ္တန႔္၍  ကုန္စည္တင္ေဆာင္ျခင္းမျပဳရ။"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

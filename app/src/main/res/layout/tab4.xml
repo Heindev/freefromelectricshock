@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ee9c">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:text="ဆားဗစ္ဝါယာႀကိဳး တပ္ဆင္အသုံးျပဳရာတြင္  သတိျပဳရန္အခ်က္မ်ား"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:text="
+(၁)သုံးစြဲသည့္ဝန္အား၏ အင္ပီယာကို ေကာင္းစြာနိုင္နင္းေသာ ႀကိဳးအ႐ြယ္အစားျဖစ္ရမည္။ \n\n
+(၂)	အနည္းဆုံး အကာႏွစ္ထပ္ပါေသာ ဝါယာတစ္ေခ်ာင္းႀကိဳးမ်ိဳးကို  ႏွစ္ႀကိဳးတြဲ၍ 	အသုံးျပဳရမည္။ \n\n
+(၃)	ဝါယာႀကိဳးအမ်ိဳးအစားေကာင္းမြန္ရမည္။ \n\n
+(၄)	ဆားဗစ္ဝါယာႀကိဳးတြင္ ႀကိဳးအဆက္မရွိေစရ။ \n\n
+(၅)	ဝါယာႀကိဳးအေလးခ်ိန္ကို ေကာင္းစြာနိုင္နင္းေသာ ဝန္ထမ္းႀကိဳးျဖင့္တြဲသုံးရမည္။ \n\n
+(၆)	ဆားဗစ္ဝါယားႀကိဳး၏ ဝန္ထမ္းႀကိဳးကို ေျမဓာတ္ခ်ရမည္။ \n\n
+(၇)	ဝါယာႀကိဳးႏွစ္ေခ်ာင္းႏွင့္ ဝန္ထမ္းႀကိဳးတို႔ကို ပလပ္စတစ္ဝါယာ ခါးပတ္ကလစ္ျဖင့္ 	ခိုင္ၿမဲစြာ တြဲထားရမည္။ \n\n
+(၈) ဝန္ထမ္းႀကိဳး၏ အစႏွင့္အဆုံးဘက္တြင္ ဘဲဥပုံေႂကြသီးတပ္ဆင္ထားရမည္။ \n\n
+(၉) ဓာတ္တိုင္ဘက္မွ ဘဲဥပုံေႂကြသီးကို ဓာတ္တိုင္မွ ( ၂ )ေပခန႔္အကြာတြင္လည္းေကာင္း၊ အေဆာက္အဦးဘက္မွ ဘဲဥပုံေႂကြသီးကိုအေဆာက္အဦးအမိုးစြန္း၏အျပင္ဘက္ (၂)ေပ ခန႔္ အကြာတြင္လည္းေကာင္းတပ္ဆင္ရမည္။ \n\n
+(၁၀) ဓာတ္တိုင္ဘက္တြင္ရွိေသာ ဝါယာႀကိဳးတြင္ ေဇာင္းယားသီးပုံေႂကြသီးခံ၍ သင့္ေတာ္သည့္ 	ျဖဴး(စ္)တပ္ဆင္ထားရမည္။\n\n
+(၁၁) ဆားဗစ္ႀကိဳးအရွည္မွာ အမ်ားဆုံး ေပ(၃၀၀)အတြင္းရွိရမည္။ \n\n
+(၁၂)	 ဆားဗစ္ဝါယာႀကိဳးသည္ ေျမျပင္မွ အနည္းဆုံး (၁၈)ေပ ျမင့္ရမည္။ \n\n
+(၁၃) ဆားဗစ္ဝါယာႀကိဳး ေဟာင္းႏြမ္း/ေပါက္ၿပဲပါက ခ်က္ခ်င္းအသစ္လဲရမည္။"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

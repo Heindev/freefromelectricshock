@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ee9c">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:text="လွ်ပ္စစ္အႏၲရာယ္ ရွိနိုင္သည့္ ဗို႔အား"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="250dp"
+                            android:layout_height="150dp"
+                            android:id="@+id/img1"
+                            android:src="@drawable/kid"
+                            android:layout_margin="20dp"/>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="
+(၁) ေနအိမ္ / ႐ုံးဌာန/ စက္႐ုံ အလုပ္႐ုံမ်ားတြင္ အသုံးျပဳသည့္   လွ်ပ္စစ္ဗို႔အား သည္ ( ၂၃၀ ) ဗို႔ႏွင့္  ( ၄၀၀ ) ဗို႔ ျဖစ္ပါသည္။\n\n
+(၂) ရပ္ကြက္ / ေက်း႐ြာမ်ားအတြင္း   သြယ္တန္း    တည္ေဆာက္ထားေသာ ဓာတ္အားလိုင္းမ်ား   ႏွင့္   ထရန္စေဖာ္မာမ်ားတြင္ ရွိသည့္ လွ်ပ္စစ္ဗို႔အား သည္     ( ၂၃၀ )  ဗို႔၊   ( ၄၀၀ )  ဗို႔ ၊   ( ၁၁၀၀၀ )   ဗို႔ ႏွင့္  ( ၃၃၀၀၀) ဗို႔ ျဖစ္ပါသည္။\n\n
+(၃) ရပ္ကြက္ /  ေက်း႐ြာမ်ားအတြင္း  တည္ေဆာက္ထားေသာ   အလတ္စား ဓာတ္အားခြဲ႐ုံမ်ားတြင္ရွိသည့္  လွ်ပ္စစ္ဗို႔အားသည္   ( ၁၁၀၀၀ )   ဗို႔ ႏွင့္   ( ၃၃၀၀၀ ) ဗို႔ ျဖစ္ပါသည္။\n\n
+(၄)	လွ်ပ္စစ္တာဝါတိုင္ႀကီးမ်ားျဖင့္   တည္ေဆာက္ထားေသာ     မဟာ    ဓာတ္အားလိုင္းမ်ားတြင္ရွိသည့္  လွ်ပ္စစ္ဗို႔အားသည္  ( ၁၃၂၀၀၀ )  ဗို႔ ႏွင့္ ( ၂၃၀၀၀၀ ) ဗို႔ ျဖစ္ပါသည္။\n\n
+(၅) လူတစ္ဦးအတြက္ လွ်ပ္စစ္ဓာတ္လိုက္မႈ အႏၲရယ္ခံစားနိုင္ေသာ လွ်ပ္စစ္ဗို႔အားသည္ ( ၄၀ ) ဗို႔ ျဖစ္ပါသည္။" />
+                </LinearLayout>
+         </ScrollView>
+</LinearLayout>

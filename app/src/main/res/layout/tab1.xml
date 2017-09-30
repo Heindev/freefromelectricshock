@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee">
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/img6"
+        android:src="@drawable/body"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/txtview1"
+       android:textSize="18sp"
+       android:textColor="#000000"
+       android:text="\n\n\t\tယေန႔ေခတ္တြင္​ လွ်ပ္စစ္​သည္ ​အလြန္အေရးပါေနေနရာ၌ ရပ္တည္လွ်က္ရွိၿပီး ႏိူင္ငံတစ္ႏိူင္ငံ၏ ဖြံ႕ၿဖိဳးမႈကို တိုင္းတာရာတြင္ ၎ႏိူင္ငံ၏ လွ်ပ္စစ္သံုးစြဲမႈ ပမာဏ ကိုလည္းထည့္သြင္းစဥ္းစာေပးပါတယ္။ ဒါပင္မဲ့ လွ်ပ္စစ္ႏွင့္ ပတ္သက္ၿပီး ကြ်န္ေတာ္တို႔ သတိမထားမိတာ တစ္ခ်ိဳ႕လည္းရွိပါတယ္။ ဘယ္အရာမဆို ေကာင္းက်ိဳး/ဆိုးက်ိဳး ယွဥ္တြဲၿပီးရွိၾကပါတယ္။ မီးေလာင္မႈမ်ား၏ 70%မွာ လွ်ပ္စစ္ကို မေတာ္တဆ(မဆင္မျခင္)သံုးစြဲမႈေၾကာင့္ျဖစ္ေပၚလာပါတယ္။ ဒီလို လွ်ပ္စစ္ကို သတ္မမႈဘဲ သံုးစြဲမႈေၾကာင့္ လူအမ်ား၏ အသက္/အိုးအိမ္ စည္းစိမ္မ်ား ဆံုးရွံးလွ်က္ရွိပါသည္။ အသက္မ်ားဆံုးဆံုးရျခင္းမွာ အစားထိုးမရေသာ ဆံုးရွံးမႈမ်ားသာျဖစ္ပါသည္။ ဘာေၾကာင့္ ဒီလိုေတြျဖစ္ရတာလဲ? ဘယ္လို ကာကြယ္ၾကမလဲ ဆိုတာ ေအာက္ပါအတိုင္း အၾကံျပဳေဆြးေႏြးေပးထားပါတယ္။"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/titleView"
+    android:text="အျဖစ္မ်ားေသာ လွ်ပ္စစ္ေဘးအႏၲရယ္မ်ား"
+    android:paddingTop="15dp"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview2"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="\n
+(1) လွ်ပ္စစ္ေရွာ့ျဖစ္မႈ \n
+(2) လွ်ပ္စစ္ ေလာင္ကြ်မ္းျခင္း\n
+(3) လွ်ပ္စစ္ေၾကာင့္ မီးေလာင္ျခင္း\n
+(4) ေပါက္ကြဲမႈမ်ာ"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView1"
+        android:text="(1) လွ်ပ္စစ္ေရွာ့ျဖစ္မႈ"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/img1"
+        android:src="@drawable/s1"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview3"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="\n\t
+လွ်ပ္စစ္ေရွာ့ျဖစ္မႈမ်ားသည္ ဖြံ႔ၿဖိဳ႕စဲႏိူင္ႏိူင္မ်ားတြင္ ပိုမိုအျဖစ္မ်ားလွ်က္ရွိပါတယ္။ ဒီလိုလွ်ပ္စစ္ေရွာ့ျဖစ္ရျခင္းမွာ ကြ်န္ေတာ္တို႔ ဂ႐ုတစိုက္ အသံုးမျပဳျခင္းကေနျဖစ္ေပၚလာေသာ ေဘးထြက္ဆိုးက်ိဳးျဖစ္ပါသည္။ လွ်ပ္စစ္မွာ Sorry လို ေျပာဆိုင္ရမွာမဟုတ္ပါဘူး။
+
+ကြ်န္ေတာ္တို႔ ဘယ္လို လုပ္ၾကမလဲ?Main ခလုပ္ကို ပိတ္ၿပီးမွသာ ဓာတ္လိုက္ေနသူကို ကယ္ပါဓာတ္လိုက္ေနသူအား Main ခလုပ္မပိတ္ဘဲ ကယ္တင္လွ်င္ သင့္ကိုယ္ပါ ဓာတ္လိုက္ႏိူင္ပ္သည္အကယ္၍ Main ခလုပ္ပိတ္ရန္ မျဖစ္ႏိူင္ပါက (ဝါးလံုးေျခာက္/သစ္သားေျခာက္) လွ်ပ္စစ္မကူးႏိူင္ေသာ အရာဝတၳဳမ်ားကိုသံုး၍ လွ်ပ္စစ္ႀကိဳးအား ဖယ္ထုတ္ပါဓာတ္လိုက္ခံရသူအား ေရွးဦးသူနာ ျပဳနည္းျဖင့္ ကုသပါ။"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView2"
+        android:text="(2) လွ်ပ္စစ္ ေလာင္ကြ်မ္းျခင္း"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/img2"
+        android:src="@drawable/s2"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview4"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="\n\t
+အားျပင္း၍ စီးဆင္းေနေသာ လွ်ပ္စစ္ႀကိဳးကို ကိုင္မိလွ်င္ အသက္ေသႏိူင္မႈ မ်ားပါသည္။ အသက္မေသလွ်င္ေတာင္ သင့္ ခႏၡာကိုယ္မွာ မီးေလာင္ခဲ့သလိုျဖစ္မွာျဖစ္ၿပီး အဓိက ထိမိခဲ့ေသာ အစိတ္အပိုင္းမ်ားမွာ ဆံုးရွံးႏိူင္မႈမ်ားပါသည္။"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView3"
+        android:text="(3) လွ်ပ္စစ္ေၾကာင့္ မီးေလာင္ျခင္းလွ်ပ္စစ္ေၾကာင့္ မီးေလာင္"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/img3"
+        android:src="@drawable/s3"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview5"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="\n\t
+းမွာ လူတို႔၏ ေပါ့ဆမႈ ၉၀% ပါဝင္လွ်က္ရွိပါသည္။ ဝန္အားမမွ်ဘဲ လွ်ပ္စစ္သံုးစြဲတာ/ အရည္အေသြးနိမ့္ပစၥည္းမ်ား/ ေပါက္ၿပဲေနေသာ လွ်ပ္စစ္ဓာတ္ႀကိဳးမ်ားကို သံုးစြဲျခင္းက လွ်ပ္စစ္ေၾကာင့္ မီးေလာင္မႈကို ျဖစ္ေပၚေစပါသည္။ ဒီလိုမီးေလာင္မႈမ်ားျဖစ္ေပၚခဲ့လွ်င္ ကြ်န္ေတာ္တို႔ ပိုင္ဆိုထားသမွ်အရာအားလံုး ဆံုးရွံးႏိူင္မွာျဖစ္ပါတယ္။"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView4"
+        android:text="(4) Explosion"
+        android:paddingTop="15dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/img4"
+        android:src="@drawable/s4"
+        android:padding="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtview6"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="\n\tဓာတ္ဆီ/ဒီဇယ္ႏွင့္ အျခားအလြယ္တကူ ေလာင္ကြ်မ္းေစေသာ ေနရာမ်ားတြင္ လွ်ပ္စစ္ကို သြယ္တန္းတက္ဆင္ရာတြင္ အထူးဂ႐ုစိုက္ရန္လိုအပ္လွပါသည္။ ဂ႐ုမစိုက္တပ္ဆင္မိလွ်င္ ဆံုးရွံးမႈအေျမႇာက္အမ်ားက သင့္ေၾကာင့္သာျဖစ္ပါသည္။
+လွ်ပ္စစ္ပညာရွင္မ်ားသည္ ေအာက္ပါ ကိစၥရပ္မ်ားကို လိုက္နာရန္ လိုအပ္ပါသည္။\n
+(1) လွ်ပ္စစ္လုပ္ငန္း လုပ္ကိုင္မည့္သူမ်ားသည္ လွ်ပ္စစ္ႏွင့္ သက္ဆိုင္သည့္ တက္ေျမႇာက္ေၾကာင္း လက္မွတ္ရွိရပါ့မည္\n
+(2) လွ်ပ္စစ္လုပ္ကိုင္မည့္သူမ်ားသည္ တကိုယ္ရည္သံုး အကာအကြယ္ပစၥည္းမ်ား ဝတ္ဆင္ရပါမည္\n
+(3) လုပ္ငန္းခြင္မဝင္ခင္ အလုပ္ႏွင့္သက္ဆိုင္သည့္ ပစၥည္းမ်ား စံု/မစံု စစ္ရပါမည္\n
+(4) လွ်ပ္စစ္ႏွင့္ သက္ဆိုင္ေသာ ပစၥည္းမ်ားတြင္ လွ်ပ္ကာမ်ား ပါဝင္ရပါမည္။\n
+(5) အလုပ္ လုပ္ရာတြင္ စီးဆင္းလွ်ပ္စစ္မ်ားကို ေရွာင္ရွားရပါ့မယ္\n
+(6) လွ်ပ္စစ္ ခလုပ္မ်ားကို လွ်ပ္စစ္ပညာရွင္မ်ားကသာ အဖြင့္/အပိတ္ လုပ္သင့္ပါသ"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
