@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#e6ee9c">
+    android:background="#eeeeee">
 
     <TextView
         android:id="@+id/text"
@@ -19,9 +19,17 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/img1"
+                android:src="@drawable/safety"
+                android:layout_gravity="center"
+                android:padding="5dp"/>
             <TextView
                 android:id="@+id/text1"
                 android:layout_width="match_parent"
@@ -45,6 +53,6 @@
 (၁၃) ဆားဗစ္ဝါယာႀကိဳးကို  ေပ(၃၀၀)ထက္ပို၍ တပ္ဆင္အသုံးမျပဳရ။\n\n
 (၁၄) ဓာတ္လိုက္ေနသူအား လက္ျဖင့္မဆြဲရ။\n\n
 (၁၅) ဓာတ္အားလိုင္း ေအာက္တြင္ မလြတ္ကင္းသည့္ကုန္တင္ယဥ္မ်ား ျဖတ္သန္းျခင္း၊ ရပ္တန႔္၍  ကုန္စည္တင္ေဆာင္ျခင္းမျပဳရ။"/>
-        </RelativeLayout>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

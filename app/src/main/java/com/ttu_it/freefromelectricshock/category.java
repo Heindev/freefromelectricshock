@@ -36,6 +36,7 @@ public class category extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(category.this,activity_four.class);
+                intent.putExtra("index",2);
                 startActivity(intent);
             }
         });
@@ -44,6 +45,7 @@ public class category extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(category.this,activity_four.class);
+                intent.putExtra("index",3);
                 startActivity(intent);
             }
         });
@@ -52,6 +54,7 @@ public class category extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(category.this,activity_four.class);
+                intent.putExtra("index",4);
                 startActivity(intent);
             }
         });
@@ -60,6 +63,7 @@ public class category extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(category.this,activity_four.class);
+                intent.putExtra("index",5);
                 startActivity(intent);
             }
         });

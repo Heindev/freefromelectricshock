@@ -48,7 +48,7 @@
             android:id="@+id/btn6"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:src="@drawable/btn6"
+            android:src="@drawable/btn7"
             android:scaleType="fitXY"/>
 
     </LinearLayout>

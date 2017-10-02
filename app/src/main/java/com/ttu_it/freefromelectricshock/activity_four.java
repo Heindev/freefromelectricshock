@@ -25,8 +25,6 @@ public class activity_four extends AppCompatActivity implements TabLayout.OnTabS
         setContentView(R.layout.activity_four);
 
         Typeface custom_font= Typeface.createFromAsset(getAssets(), "zawgyi.ttf");
-        final TextView tv1=(TextView)findViewById(R.id.t1);
-        tv1.setTypeface(custom_font);
         //Adding toolbar to the activity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar4);
         setSupportActionBar(toolbar);
@@ -61,8 +59,6 @@ public class activity_four extends AppCompatActivity implements TabLayout.OnTabS
         int tabIndex=0;
         tabIndex=getIntent().getIntExtra("index",0);
         viewPager.setCurrentItem(tabIndex);
-        Log.d("TEST",tabIndex+"");
-        Log.d("TEST","code changed");
     }
 
     @Override

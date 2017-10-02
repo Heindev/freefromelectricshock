@@ -3,43 +3,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#e6ee9c">
+    android:background="#eeeeee">
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:textColor="#000000"
-        android:text="လွ်ပ္စစ္အႏၲရာယ္ ျဖစ္ပြားရျခင္း အေၾကာင္းရင္းမ်ား"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:text="လွ်ပ္စစ္အႏၲရာယ္ ျဖစ္ပြားရျခင္း အေၾကာင္းရင္းမ်ား"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:id="@+id/img1"
+                android:src="@drawable/kid"
+                android:layout_gravity="center"
+                android:padding="5dp"/>
             <TextView
                 android:id="@+id/text1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
+
                 android:textSize="15sp"
                 android:textColor="#000000"
                 android:text="
 (1) လွ်ပ္စစ္ပစၥည္းမ်ား အရည္အေသြး မျပည့္မီျခင္း\n\n
 (2) ဝါယာသြယ္တန္းမႈ၊ လွ်ပ္စစ္ပစၥည္းတပ္ဆင္မႈ မျပည့္စုံျခင္း၊ စနစ္မက်ျခင္း\n\n
 (3) သက္တမ္းလြန္ လွ်ပ္စစ္ပစၥည္းမ်ား အသုံးျပဳျခင္း\n\n
-(4)အိမ္တြင္းသုံး လွ်ပ္စစ္ပစၥည္းမ်ားကို ခံနိုင္ရည္ထက္ ပိုသုံးျခင္း\n\n
-(5)လွ်ပ္စစ္ပစၥည္းမ်ားကို ေပါ့ဆစြာ အသုံးျပဳျခင္း\n\n
-(6)မူးယစ္ေသာက္စားျခင္း\n\n
-(7)တရားမဝင္ ဓာတ္အားသုံးစြဲျခင္း\n\n
+(4) အိမ္တြင္းသုံး လွ်ပ္စစ္ပစၥည္းမ်ားကို ခံနိုင္ရည္ထက္ ပိုသုံးျခင္း\n\n
+(5) လွ်ပ္စစ္ပစၥည္းမ်ားကို ေပါ့ဆစြာ အသုံးျပဳျခင္း\n\n
+(6) မူးယစ္ေသာက္စားျခင္း\n\n
+(7) တရားမဝင္ ဓာတ္အားသုံးစြဲျခင္း\n\n
 (8) လွ်ပ္စစ္အႏၲရာယ္ကင္းရွင္းေရး အသိပညာ ဗဟုသုတ နည္းပါးျခင္း"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
-        </RelativeLayout>
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

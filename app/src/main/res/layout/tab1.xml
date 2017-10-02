@@ -12,21 +12,32 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="လ်ွပ္​စစ္​အႏၱရယ္​ နဲ႔ သိ​ေကာင္​းစရာမ်ား"
+        android:paddingTop="5dp"
+        android:textSize="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_gravity="center_horizontal"
+        />
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="200dp"
-        android:id="@+id/img6"
-        android:src="@drawable/body"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="50dp"/>
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wraper"/>
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:id="@+id/txtview1"
        android:textSize="18sp"
        android:textColor="#000000"
-       android:text="\n\n\t\tယေန႔ေခတ္တြင္​ လွ်ပ္စစ္​သည္ ​အလြန္အေရးပါေနေနရာ၌ ရပ္တည္လွ်က္ရွိၿပီး ႏိူင္ငံတစ္ႏိူင္ငံ၏ ဖြံ႕ၿဖိဳးမႈကို တိုင္းတာရာတြင္ ၎ႏိူင္ငံ၏ လွ်ပ္စစ္သံုးစြဲမႈ ပမာဏ ကိုလည္းထည့္သြင္းစဥ္းစာေပးပါတယ္။ ဒါပင္မဲ့ လွ်ပ္စစ္ႏွင့္ ပတ္သက္ၿပီး ကြ်န္ေတာ္တို႔ သတိမထားမိတာ တစ္ခ်ိဳ႕လည္းရွိပါတယ္။ ဘယ္အရာမဆို ေကာင္းက်ိဳး/ဆိုးက်ိဳး ယွဥ္တြဲၿပီးရွိၾကပါတယ္။ မီးေလာင္မႈမ်ား၏ 70%မွာ လွ်ပ္စစ္ကို မေတာ္တဆ(မဆင္မျခင္)သံုးစြဲမႈေၾကာင့္ျဖစ္ေပၚလာပါတယ္။ ဒီလို လွ်ပ္စစ္ကို သတ္မမႈဘဲ သံုးစြဲမႈေၾကာင့္ လူအမ်ား၏ အသက္/အိုးအိမ္ စည္းစိမ္မ်ား ဆံုးရွံးလွ်က္ရွိပါသည္။ အသက္မ်ားဆံုးဆံုးရျခင္းမွာ အစားထိုးမရေသာ ဆံုးရွံးမႈမ်ားသာျဖစ္ပါသည္။ ဘာေၾကာင့္ ဒီလိုေတြျဖစ္ရတာလဲ? ဘယ္လို ကာကြယ္ၾကမလဲ ဆိုတာ ေအာက္ပါအတိုင္း အၾကံျပဳေဆြးေႏြးေပးထားပါတယ္။"/>
-<TextView
+       android:text="\n\n\t\tယေန႔ေခတ္တြင္ လွ်ပ္စစ္သည္ အလြန္အေရးပါေနေနရာ၌ ရပ္တည္လွ်က္ရွိၿပီး ႏိူင္ငံတစ္ႏိူင္ငံ၏ ဖြံ႕ၿဖိဳးမႈကို တိုင္းတာရာတြင္ ၎ႏိူင္ငံ၏ လွ်ပ္စစ္သံုးစြဲမႈ ပမာဏ ကိုလည္းထည့္သြင္းစဥ္းစာေပးပါတယ္။ ဒါပင္မဲ့ လွ်ပ္စစ္ႏွင့္ ပတ္သက္ၿပီး ကြ်န္ေတာ္တို႔ သတိမထားမိတာ တစ္ခ်ိဳ႕လည္းရွိပါတယ္။ ဘယ္အရာမဆို ေကာင္းက်ိဳး/ဆိုးက်ိဳး ယွဥ္တြဲၿပီးရွိၾကပါတယ္။ မီးေလာင္မႈမ်ား၏ 70%မွာ လွ်ပ္စစ္ကို မေတာ္တဆ(မဆင္မျခင္)သံုးစြဲမႈေၾကာင့္ျဖစ္ေပၚလာပါတယ္။ ဒီလို လွ်ပ္စစ္ကို သတ္မမႈဘဲ သံုးစြဲမႈေၾကာင့္ လူအမ်ား၏ အသက္/အိုးအိမ္ စည္းစိမ္မ်ား ဆံုးရွံးလွ်က္ရွိပါသည္။ အသက္မ်ားဆံုးဆံုးရျခင္းမွာ အစားထိုးမရေသာ ဆံုးရွံးမႈမ်ားသာျဖစ္ပါသည္။ ဘာေၾကာင့္ ဒီလိုေတြျဖစ္ရတာလဲ? ဘယ္လို ကာကြယ္ၾကမလဲ ဆိုတာ ေအာက္ပါအတိုင္း အၾကံျပဳေဆြးေႏြးေပးထားပါတယ္။"
+       android:layout_gravity="right"
+       android:paddingTop="5dp"
+       android:layout_marginLeft="5dp"
+       android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+       <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/titleView"

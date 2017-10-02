@@ -9,10 +9,10 @@
     tools:context="com.ttu_it.freefromelectricshock.MainActivity">
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingLeft="45dp"
-        android:paddingTop="60dp">
+        android:paddingTop="30dp">
 
         <ImageButton
             android:id="@+id/infoImgBtn"
@@ -30,7 +30,7 @@
             android:layout_below="@+id/infoImgBtn"
             android:text="လ်ွပ္​စစ္​အႏၱရယ္​"
             android:paddingTop="10dp"
-            android:paddingBottom="70dp"
+            android:paddingBottom="30dp"
             android:textSize="15sp"/>
 
 
@@ -48,23 +48,41 @@
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:layout_below="@+id/galleryImgBtn"
+            android:paddingBottom="30dp"
             android:text="ကယ္​ဆယ္​​ေရး"
+            android:paddingTop="10dp"
+            android:textSize="15sp"/>
+
+        <ImageButton
+            android:id="@+id/saveImgBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/saveenergy"
+            android:background="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/saveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@+id/galleryImgBtn"
+            android:text="​ေလ်ွာ့ခ်​ေရး"
             android:paddingTop="10dp"
             android:textSize="15sp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingLeft="60dp"
-        android:paddingTop="60dp">
+        android:paddingTop="30dp">
         <ImageButton
             android:id="@+id/emerImgBtn"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:scaleType="fitXY"
             android:src="@drawable/emergency"
-            android:layout_toLeftOf="@+id/info"
             android:background="@android:color/transparent"/>
         <TextView
             android:id="@+id/phText"
@@ -74,7 +92,7 @@
             android:text="အ​ေရး​​ေပၚ"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:paddingBottom="70dp"
+            android:paddingBottom="30dp"
             android:textSize="15sp"/>
 
         <ImageButton
@@ -82,8 +100,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:scaleType="fitXY"
-            android:src="@drawable/idea1"
-            android:layout_toLeftOf="@+id/info"
+            android:src="@drawable/game"
             android:background="@android:color/transparent"/>
         <TextView
             android:id="@+id/tastText"
@@ -91,6 +108,23 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/aboutUsImgBtnImgBtn"
             android:text="ပ​ေဟဠိ"
+            android:paddingLeft="15dp"
+            android:paddingBottom="30dp"
+            android:paddingTop="10dp"
+            android:textSize="15sp"/>
+        <ImageButton
+            android:id="@+id/aboutImgBtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/information"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:id="@+id/aboutText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutUsImgBtnImgBtn"
+            android:text="အခ်က္​အလက္​ိ"
             android:paddingLeft="15dp"
             android:paddingTop="10dp"
             android:textSize="15sp"/>
